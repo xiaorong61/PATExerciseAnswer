@@ -2,3 +2,4 @@
 *.class
 in.txt
 *.out
+*.o
