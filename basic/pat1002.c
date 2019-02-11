@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-char pinyinMap[][5] = {"ling", "yi",  "er", "san", "si",
-                       "wu",   "liu", "qi", "ba",  "jiu"};
+typedef char *String;
+String pinyinMap[] = {"ling", "yi",  "er", "san", "si",
+                      "wu",   "liu", "qi", "ba",  "jiu"};
 void printNumByPinyin(int num) {
   if (num >= 10) {
     printNumByPinyin(num / 10);
